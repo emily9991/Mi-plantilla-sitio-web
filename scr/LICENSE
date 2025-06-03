@@ -1,0 +1,49 @@
+MIT License
+
+Copyright (c) 2024 Biocattaleyaskin
+
+Se concede permiso, libre de cargos, a cualquier persona que obtenga una copia
+de este software y los archivos de documentación asociados (el "Software"), para
+tratar el Software sin restricción, incluyendo sin limitación los derechos a usar,
+copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias
+del Software, y a permitir a las personas a quienes se les proporcione el Software
+a hacer lo mismo, sujeto a las siguientes condiciones:
+
+
+---
+
+### 2. package.json
+
+```json
+{
+  "name": "BIO-CATTALEYA-SKIN",
+  "version": "1.0.0",
+  "description": "Plantilla modular para sitio web de código abierto",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": ["web", "plantilla", "modular", "codigo abierto"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
+```
+
+---
+
+### 3. Inicializar proyecto con npm
+
+Ejecuta el siguiente comando en tu terminal para crear un archivo `package.json` por defecto:
+
+```
+npm init -y
+```
+
+Luego, instala `live-server` como una dependencia de desarrollo:
+
+```
+npm install --save-dev live-server
+```
