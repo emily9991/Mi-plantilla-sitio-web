@@ -6,21 +6,74 @@ Esta es una plantilla web sencilla, responsiva y personalizable, creada con estr
 
 ## 📁 Estructura del proyecto
 
-mi-sitio-web/
-├── src/
-│ ├── components/
-│ │ ├── Header/
-│ │ │ ├── Header.js
-│ │ │ ├── Header.css
-│ │ ├── Hero/
-│ │ │ ├── Hero.js
-│ │ │ ├── Hero.css
-│ ├── styles/
-│ │ ├── base.css
-│ ├── index.html
-├── docs/
-├── LICENSE
-├── README.md
+│   .gitignore
+│   README.md
+│   
+├───Core
+│   ├───css
+│   │       style.css
+│   │
+│   ├───html
+│   │       index.html
+│   │
+│   ├───img
+│   │   │   description-images_07.jpg
+│   │   │   dew-lip-tint-bio.jpg
+│   │   │   IMAGEN-HERO-.JPG
+│   │   │   imagen-principal-3.jpg
+│   │   │   LOGO_DE_BIO_CATTALEYA_SKIN.PNG.png
+│   │   │
+│   │   └───payment-methods
+│   │       ├───Mastercard Symbol - SVG
+│   │       │   │   mc_symbol_web-artwork_qrg_210112.pdf
+│   │       │   │
+│   │       │   └───Artwork
+│   │       │           ma_symbol.svg
+│   │       │
+│   │       ├───PayPal
+│   │       │   └───PayPal Logo
+│   │       │       ├───Horizontal
+│   │       │       │       PP_logo_h_100x26.png
+│   │       │       │       PP_logo_h_150x38.png
+│   │       │       │       PP_logo_h_200x51.png
+│   │       │       │
+│   │       │       └───Vertical
+│   │       │               pp_cc_mark_111x69.jpg
+│   │       │               pp_cc_mark_37x23.jpg
+│   │       │               pp_cc_mark_74x46.jpg
+│   │       │
+│   │       └───Visa_Brandmark_RGB_2021_PNG
+│   │               Visa_Brandmark_Blue_RGB_2021.png
+│   │               Visa_Brandmark_White_RGB_2021.png
+│   │
+│   ├───js
+│   │       main.js
+│   │
+│   └───PHP
+│           hero.php
+│
+└───Editable
+    └───src
+        │   docs
+        │   index.html
+        │   LICENSE
+        │   README.md
+        │
+        ├───components
+        │   ├───Cart
+        │   │       cart.css
+        │   │       cart.js
+        │   │
+        │   ├───Header
+        │   │       Header.css
+        │   │       Header.js
+        │   │
+        │   └───Hero
+        │           hero.css
+        │           hero.js
+        │
+        └───styles
+                base.css
 
 yaml
 Copiar
